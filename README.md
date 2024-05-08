@@ -16,3 +16,7 @@ The data upload will follow shortly. The following functions will be implemented
 - Usage of standard components
 - 3D printed housing
 - epoxy resin encapsulated electronics to meet outdoor requirements
+
+## Credits
+The Sense Board utilizes the excellent SoMoSe (Soil Moisture Sensor) developed by BeFIE you can find under
+https://github.com/BeFlE/SoMoSe and is sold on Amazon
