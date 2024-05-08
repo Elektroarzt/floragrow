@@ -2,8 +2,11 @@
 
 This project revolves around the topic of smart irrigation in the smart home. First, I will release a soil moisture sensor. This sensor is powered by a power supply and connects via MQTT to an IoT software such as Home Assistant, ioBroker, Node-RED, or similar. Later, there will likely be a variant that is powered by a battery.
 
+<img width="400" alt="image" src="https://github.com/Elektroarzt/floragrow/assets/61664171/703e603e-a8ef-4864-9fb5-a0efed62c016">
+
+
 ### Schematic
-![FloraGrow Sense PS V2 0 schematic](https://github.com/Elektroarzt/floragrow/assets/61664171/1fc1ced2-c58f-468e-8b4b-dea82ee26cf0)
+<img width="1200" alt="image" src="https://github.com/Elektroarzt/floragrow/assets/61664171/1fc1ced2-c58f-468e-8b4b-dea82ee26cf0">
 
 ### Mechanics
 As a little teaser, here is a video of the prototype in action:
