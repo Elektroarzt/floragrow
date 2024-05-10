@@ -6,6 +6,8 @@ This project revolves around the topic of smart irrigation in smart homes. First
 <img width="400" alt="image" src="https://github.com/Elektroarzt/floragrow/assets/61664171/703e603e-a8ef-4864-9fb5-a0efed62c016">
 
 The Sense PS has the following features:
+- Measurement of soil moisture and device temperature
+- WiFi connection to an MQTT broker
 - ESP32-C3 Super Mini DevBoard
 - wide range power supply input 5...40V DC
 - 3D printed housing
