@@ -1,7 +1,7 @@
 # FloraGrow ![Static Badge](https://img.shields.io/badge/stability-beta-orange)
 
 ## Overview
-This project revolves around the topic of smart irrigation in smart homes. First, I will release a power supplied soil moisture sensor (Sense PS). It connects via MQTT to an IoT software such as Home Assistant, ioBroker, Node-RED or similar. Later, there will likely be a variant that is powered by a battery and a valve controller with flow meters to complete the irrigation system.
+This project revolves around the topic of smart irrigation in smart homes. First release is a power supplied soil moisture sensor (Sense PS). It connects via MQTT to an IoT software such as Home Assistant, ioBroker, Node-RED or similar. Later, there will likely be a variant that is powered by a battery and a valve controller with flow meters to complete the irrigation system.
 
 <img width="400" alt="image" src="https://github.com/Elektroarzt/floragrow/assets/61664171/703e603e-a8ef-4864-9fb5-a0efed62c016">
 
