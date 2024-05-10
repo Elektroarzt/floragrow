@@ -35,7 +35,6 @@ test/
 # Temporary files
 *.000
 *.bak
-*.zip
 *.bck
 *.kicad_pcb-bak
 *.kicad_sch-bak
