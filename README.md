@@ -27,6 +27,7 @@ You can buy the components at the following sources:
  Buck converter | DD4012SA (3.3V Version) | Ali Express |
  Soil Moisture Sensor | SoMoSe | Amazon Germany |
  Electrolytic Capacitor | 220uF /10V radial | Reichelt, Amazon, etc. |
+ Power cable | H05RN-F 2x1 | Amazon, some hardware stores |
 
 ### Mechanics
 All components are assembled on the PCB and mounted into the housing. The whole circuit is potted with 2 components resin to ensure outdoor capability.
