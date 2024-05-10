@@ -31,6 +31,12 @@ You can buy the components at the following sources:
  Screws                        | M3 x 6mm                         | hardware store
  Housing components            | see housing 3D models folder     | self printed
 
+### PCB
+The PCB has two layers with planes for 3.3V on top and GND on the bottom side. It is populated from both sides to achieve a compact form factor.
+
+<img width="400" alt="FloraGrow Sense PS PCB top" src="https://github.com/Elektroarzt/floragrow/assets/61664171/905aee47-8427-4945-a408-d85a72fc7ef2">
+<img width="402" alt="FloraGrow Sense PS PCB bottom" src="https://github.com/Elektroarzt/floragrow/assets/61664171/79f98e80-1627-4cef-a77b-8b71a5135669">
+
 ### Mechanics
 All components are assembled on the PCB and mounted into the housing. The whole circuit is potted with 2 components resin to ensure outdoor capability.
 
