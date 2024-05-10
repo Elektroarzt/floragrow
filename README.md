@@ -20,13 +20,16 @@ The schematic is quiet simple, only a few devices are put together.
 
 ### Partslist
 You can buy the components at the following sources:
- Component| Name |Source|
- :--------- |:-|:-|
- ESP32 Development Board | ESP32 C3 Super Mini | Ali Express |
- Soil Moisture Sensor | SoMoSe | Amazon Germany |
- Buck converter | DD4012SA (3.3V Version) | Ali Express |
- Soil Moisture Sensor | SoMoSe | Amazon Germany |
- Electrolytic Capacitor | 220uF /10V radial | Reichelt, Amazon, etc. |
+ Component                     | Name                             |Source
+ :-                            |:-                                |:-
+ ESP32 Development Board       | ESP32 C3 Super Mini              | Ali Express
+ Soil Moisture Sensor          | SoMoSe                           | Amazon Germany
+ Buck converter                | DD4012SA (3.3V Version)          | Ali Express
+ Soil Moisture Sensor          | SoMoSe                           | Amazon Germany
+ Electrolytic Capacitor        | 220uF /10V radial                | Reichelt, Amazon, etc.
+ Power cable                   | H05RN-F 2x1                      | Amazon, some hardware stores
+ Screws                        | M3 x 6mm                         | hardware store
+ Housing components            | see housing 3D models folder     | self printed
 
 ### Mechanics
 All components are assembled on the PCB and mounted into the housing. The whole circuit is potted with 2 components resin to ensure outdoor capability.
