@@ -41,6 +41,7 @@ The PCB has two layers with planes for 3.3V on top and GND on the bottom side. I
 
 ### Mechanics
 All components are assembled on the PCB and mounted into the housing. The whole circuit is potted with 2 components resin to ensure outdoor capability.
+If someone is interested in a complete device including all parts (PCBA, ESP32, housing, etc.) you can contact me under elektroarzt@digital-filestore.de.
 
 https://github.com/Elektroarzt/floragrow/assets/61664171/9023889c-925e-4a48-a43b-feb629170dae
 
