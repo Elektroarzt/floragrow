@@ -42,6 +42,23 @@ The PCB has two layers with planes for 3.3V on top and GND on the bottom side. I
 <img width="400" alt="FloraGrow Sense PS PCB top" src="https://github.com/Elektroarzt/floragrow/assets/61664171/905aee47-8427-4945-a408-d85a72fc7ef2">
 <img width="402" alt="FloraGrow Sense PS PCB bottom" src="https://github.com/Elektroarzt/floragrow/assets/61664171/79f98e80-1627-4cef-a77b-8b71a5135669">
 
+### Firmware
+The soil moisture sensor can pre programmed with the firmware of the manufacturer [available here](https://github.com/BeFlE/SoMoSe). The firmware facilitates the following MQTT topics:
+
+**Published topics**
+
+ Topic                          | Values                  | Notes
+ :----------------------------- |:------------------------|:--------------------------------------------------
+ somose_name/1/Humidity         | number (0...255)        | raw value of the sensor
+ somose_name/1/Humidity-Average | number (0...255)        | smoothed, average value of the sensor
+ somose_name/1/Name             | string                  | name of the sensor
+ somose_name/1/Temperature      | number                  | temperature of the sensor in degree celsius
+
+For details on the topics see website of the manufacturer.
+
+### ESPhome
+For direct integration into Home Assistant, ESPhome configuration files also can be downloaded from the [manufacturer site](https://github.com/BeFlE/SoMoSe).
+
 ### Mechanics
 All components are assembled on the PCB and mounted into the housing. The whole circuit is potted with 2 components resin to ensure outdoor capability.
 If someone is interested in a complete device including all parts (PCBA, ESP32, housing, etc.) you can contact me under elektroarzt@digital-filestore.de.
