@@ -3,7 +3,10 @@
 ## Overview
 This project revolves around the topic of smart irrigation in smart homes. First release is a power supplied soil moisture sensor (Sense PS). It connects via MQTT to an IoT software such as Home Assistant, ioBroker, Node-RED or similar. Later, there will likely be a variant that is powered by a battery and a valve controller with flow meters to complete the irrigation system.
 
-<img width="400" alt="image" src="https://github.com/Elektroarzt/floragrow/assets/61664171/703e603e-a8ef-4864-9fb5-a0efed62c016">
+<img width="400" alt="image" src="https://github.com/Elektroarzt/floragrow/assets/61664171/24fca857-ed9b-4213-821d-297480db23ae">
+<img width="400" alt="image" src="https://github.com/Elektroarzt/floragrow/assets/61664171/734b0c6d-95bb-40ba-81a5-4be0aeca1550">
+<img width="400" alt="image" src="https://github.com/Elektroarzt/floragrow/assets/61664171/d4eaf9d8-0a77-40e2-b17f-2aae4da73ebf">
+
 
 The Sense PS has the following features:
 - Measurement of soil moisture and device temperature
