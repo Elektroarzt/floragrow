@@ -54,7 +54,7 @@ The ESP32 of the Sense PS can be programmed with the firmware of the manufacture
  somose_name/1/Name             | string                  | name of the sensor
  somose_name/1/Temperature      | number                  | temperature of the sensor in degree celsius
 
-For details on the MQTT topics see website of the seonsor manufacturer. Be sure to have the ESP32 programmed before potting ;)
+For details on the MQTT topics see website of the sensor manufacturer. Be sure to have the ESP32 programmed before potting ;)
 After programming, the device is capable for OTA updates via its web interface.
 
 ### ESPhome
