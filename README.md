@@ -3,9 +3,9 @@
 ## Overview
 This project revolves around the topic of smart irrigation in smart homes. First release is a power supplied soil moisture sensor (Sense PS). It connects via MQTT to an IoT software such as Home Assistant, ioBroker, Node-RED or similar. Later, there will likely be a variant that is powered by a battery and a valve controller with flow meters to complete the irrigation system.
 
-<img width="400" alt="image" src="https://github.com/Elektroarzt/floragrow/assets/61664171/24fca857-ed9b-4213-821d-297480db23ae">
-<img width="400" alt="image" src="https://github.com/Elektroarzt/floragrow/assets/61664171/734b0c6d-95bb-40ba-81a5-4be0aeca1550">
-<img width="400" alt="image" src="https://github.com/Elektroarzt/floragrow/assets/61664171/d4eaf9d8-0a77-40e2-b17f-2aae4da73ebf">
+<img width="350" alt="image" src="https://github.com/Elektroarzt/floragrow/assets/61664171/24fca857-ed9b-4213-821d-297480db23ae">
+<img width="350" alt="image" src="https://github.com/Elektroarzt/floragrow/assets/61664171/734b0c6d-95bb-40ba-81a5-4be0aeca1550">
+<img width="350" alt="image" src="https://github.com/Elektroarzt/floragrow/assets/61664171/d4eaf9d8-0a77-40e2-b17f-2aae4da73ebf">
 
 
 The Sense PS has the following features:
@@ -39,11 +39,11 @@ You can buy the components at the following sources:
 ### PCB
 The PCB has two layers with planes for 3.3V on top and GND on the bottom side. It is populated from both sides to achieve a compact form factor. The power cord leads are directly soldered to SMD pads on the PCB.
 
-<img width="400" alt="FloraGrow Sense PS PCB top" src="https://github.com/Elektroarzt/floragrow/assets/61664171/905aee47-8427-4945-a408-d85a72fc7ef2">
-<img width="402" alt="FloraGrow Sense PS PCB bottom" src="https://github.com/Elektroarzt/floragrow/assets/61664171/79f98e80-1627-4cef-a77b-8b71a5135669">
+<img width="350" alt="FloraGrow Sense PS PCB top" src="https://github.com/Elektroarzt/floragrow/assets/61664171/905aee47-8427-4945-a408-d85a72fc7ef2">
+<img width="352" alt="FloraGrow Sense PS PCB bottom" src="https://github.com/Elektroarzt/floragrow/assets/61664171/79f98e80-1627-4cef-a77b-8b71a5135669">
 
 ### Firmware
-The soil moisture sensor can pre programmed with the firmware of the manufacturer [available here](https://github.com/BeFlE/SoMoSe). The firmware facilitates the following MQTT topics:
+The ESP32 of the Sense PS can be programmed with the firmware of the manufacturer of the sensor [available here](https://github.com/BeFlE/SoMoSe). The firmware facilitates the following MQTT topics:
 
 **Published topics**
 
@@ -57,10 +57,10 @@ The soil moisture sensor can pre programmed with the firmware of the manufacture
 For details on the topics see website of the manufacturer.
 
 ### ESPhome
-For direct integration into Home Assistant, ESPhome configuration files also can be downloaded from the [manufacturer site](https://github.com/BeFlE/SoMoSe).
+For direct integration into Home Assistant, ESPhome configuration files also can be downloaded from the sensor [manufacturer site](https://github.com/BeFlE/SoMoSe).
 
 ### Mechanics
-All components are assembled on the PCB and mounted into the housing. The whole circuit is potted with 2 components resin to ensure outdoor capability.
+All components are soldered to the PCB and mounted into the housing. The whole circuit is potted with 2 components resin to ensure outdoor capability.
 If someone is interested in a complete device including all parts (PCBA, ESP32, housing, etc.) you can contact me under elektroarzt@digital-filestore.de.
 
 https://github.com/Elektroarzt/floragrow/assets/61664171/9023889c-925e-4a48-a43b-feb629170dae
