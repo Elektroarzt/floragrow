@@ -1,6 +1,6 @@
 # FloraGrow [![stability-release-candidate](https://img.shields.io/badge/stability-pre--release-48c9b0.svg)](https://github.com/mkenney/software-guides/blob/master/STABILITY-BADGES.md#release-candidate)
 
-## Overview
+### Overview
 This project revolves around the topic of smart irrigation in smart homes. First release is a power supplied soil moisture sensor (Sense PS). It connects via MQTT to an IoT software such as Home Assistant, ioBroker, Node-RED or similar. Later, there will likely be a variant that is powered by a battery and a valve controller with flow meters to complete the irrigation system.
 
 <img width="350" alt="image" src="https://github.com/Elektroarzt/floragrow/assets/61664171/24fca857-ed9b-4213-821d-297480db23ae">
@@ -8,7 +8,7 @@ This project revolves around the topic of smart irrigation in smart homes. First
 <img width="350" alt="image" src="https://github.com/Elektroarzt/floragrow/assets/61664171/d4eaf9d8-0a77-40e2-b17f-2aae4da73ebf">
 
 
-The Sense PS has the following features:
+### Features of the Sense PS
 - Measurement of soil moisture and device temperature
 - WiFi connection to an MQTT broker
 - ESP32-C3 Super Mini DevBoard
